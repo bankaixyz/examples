@@ -1585,7 +1585,7 @@ dependencies = [
 [[package]]
 name = "bankai-core"
 version = "0.1.0"
-source = "git+https://github.com/bankaixyz/bankai-sdk?tag=v0.1.2.2#3ed8509b95d8de5051f732a0f67ba4c250dd6771"
+source = "git+https://github.com/bankaixyz/bankai-sdk?tag=v0.1.2.3#61907b7e5cd0643f56017a293bf3903043330b9a"
 dependencies = [
  "alloy-primitives 1.5.7",
  "cairo-vm-base",
@@ -1600,7 +1600,7 @@ dependencies = [
 [[package]]
 name = "bankai-sdk"
 version = "0.1.0"
-source = "git+https://github.com/bankaixyz/bankai-sdk?tag=v0.1.2.2#3ed8509b95d8de5051f732a0f67ba4c250dd6771"
+source = "git+https://github.com/bankaixyz/bankai-sdk?tag=v0.1.2.3#61907b7e5cd0643f56017a293bf3903043330b9a"
 dependencies = [
  "accumulators",
  "alloy-primitives 1.5.7",
@@ -1633,7 +1633,7 @@ dependencies = [
 [[package]]
 name = "bankai-types"
 version = "0.1.0"
-source = "git+https://github.com/bankaixyz/bankai-sdk?tag=v0.1.2.2#3ed8509b95d8de5051f732a0f67ba4c250dd6771"
+source = "git+https://github.com/bankaixyz/bankai-sdk?tag=v0.1.2.3#61907b7e5cd0643f56017a293bf3903043330b9a"
 dependencies = [
  "alloy-consensus",
  "alloy-primitives 1.5.7",
@@ -1654,7 +1654,7 @@ dependencies = [
 [[package]]
 name = "bankai-verify"
 version = "0.1.0"
-source = "git+https://github.com/bankaixyz/bankai-sdk?tag=v0.1.2.2#3ed8509b95d8de5051f732a0f67ba4c250dd6771"
+source = "git+https://github.com/bankaixyz/bankai-sdk?tag=v0.1.2.3#61907b7e5cd0643f56017a293bf3903043330b9a"
 dependencies = [
  "alloy-primitives 1.5.7",
  "alloy-rlp",
@@ -5484,7 +5484,7 @@ dependencies = [
 [[package]]
 name = "mpt-generate"
 version = "0.1.0"
-source = "git+https://github.com/bankaixyz/bankai-sdk?tag=v0.1.2.2#3ed8509b95d8de5051f732a0f67ba4c250dd6771"
+source = "git+https://github.com/bankaixyz/bankai-sdk?tag=v0.1.2.3#61907b7e5cd0643f56017a293bf3903043330b9a"
 dependencies = [
  "alloy-consensus",
  "alloy-eips",

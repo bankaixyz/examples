@@ -15,7 +15,7 @@ pub fn main() {
     let bundle = sp1_zkvm::io::read::<ProofBundle>();
 
     let result = verify_batch_proof(bundle).expect("Failed to verify batch proof");
-    let slot_value: [u8; 32] = result.evm.storage_slot[0][0].1.to_be_bytes();
+    let slot_value: [u8; 32] = result.evm.storage_slot[0].slots[0].1.to_be_bytes();
 
     sp1_zkvm::io::commit_slice(slot_value.as_slice());
 }

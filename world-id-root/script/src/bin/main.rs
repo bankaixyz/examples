@@ -71,7 +71,7 @@ async fn main() {
     let mpt_key = U256::from_be_bytes(key_bytes.into());
 
     let bundle = bankai
-        .init_batch(Network::Local, None, HashingFunction::Keccak)
+        .init_batch(None, HashingFunction::Keccak)
         .await
         .unwrap()
         .ethereum_storage_slot(latest_block.height, contract, vec![mpt_key])
